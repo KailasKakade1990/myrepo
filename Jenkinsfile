@@ -4,6 +4,7 @@ agent any
   stage('Create build output') {
    steps {
     script {
+     //added the test commit 
      // Make the output directory.
      sh "mkdir -p output"
      // Write a useful file, which is needed to be archived.
